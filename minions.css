@@ -75,9 +75,6 @@ header{
 
 .lore div:hover{
     border: #fce029 solid 2px;
-    background-color: #000000df;
-    color: #fff;
-    text-shadow: 5px 3px 10px #ffffff2f;
 }
 
 .lore div h1{
@@ -117,9 +114,6 @@ header{
 
 .appearance div:hover{
     border: #fce029 solid 2px;
-    background-color: #000000df;
-    color: #fff;
-    text-shadow: 5px 3px 10px #ffffff2f;
 }
 
 .appearance div h1{
@@ -167,7 +161,7 @@ img{
     height: 400px;
 }
 
-#onhover{
+.onclick{
     position: fixed;
     left: 5px;
     top: 5px;
@@ -176,4 +170,12 @@ img{
     color: #fff;
     padding: 5px;
     border-radius: 10px;
+}
+
+#onclick{
+    visibility: visible;
+}
+
+#offclick{
+    visibility: hidden;
 }
