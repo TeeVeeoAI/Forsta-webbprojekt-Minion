@@ -69,7 +69,7 @@ header{
     padding: 5px;
     background-color: #ffffff22;
     border-radius: 10px;
-    text-shadow: 5px 3px 10px #fce029;
+    text-shadow: 5px 3px 9px #fce02969;
     border: #00000000 solid 2px;
 }
 
@@ -108,7 +108,7 @@ header{
     padding: 5px;
     background-color: #ffffff22;
     border-radius: 10px;
-    text-shadow: 5px 3px 10px #fce029;
+    text-shadow: 5px 3px 9px #fce02969;
     border: #00000000 solid 2px;
 }
 
@@ -174,8 +174,20 @@ img{
 
 #onclick{
     visibility: visible;
+    z-index: 1;
 }
 
 #offclick{
     visibility: hidden;
+    z-index: 0;
+}
+
+.surprise{
+    position: absolute;
+    right: 7%;
+    top: 60%;
+    border: #000000 solid 2px;
+    padding: 5px;
+    background-color: #fce02975;
+    border-radius: 10px;
 }
