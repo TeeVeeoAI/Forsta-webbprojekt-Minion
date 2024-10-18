@@ -1,36 +1,60 @@
-let i = 1, j = 1, l = 1;
+let otto = 1, jerry = 1, mel = 1, bob = 1, carl = 1;
 function IMGOtto() {
-    if (i == 1) {
+    if (otto == 1) {
         document.getElementById("Otto").src="Minions img/Otto/Otto2.jpg";
-        i++;
-    } else if (i == 2) {
+        otto++;
+    } else if (otto == 2) {
         document.getElementById("Otto").src="Minions img/Otto/Otto.png";
-        i--;
+        otto--;
     }
 }
 
 function IMGJerry() {
-    if (j == 1) {
+    if (jerry == 1) {
         document.getElementById("Jerry").src="Minions img/Jerry/Jerry_Evil.png.webp";
-        j++;
-    } else if (j == 2) {
+        jerry++;
+    } else if (jerry == 2) {
         document.getElementById("Jerry").src="Minions img/Jerry/Jerry.webp";
-        j--;
+        jerry--;
     }
 }
 
 function IMGMel() {
-    if (l == 1) {
+    if (mel == 1) {
         document.getElementById("Mel").src="Minions img/Mel/Mel2.webp";
-        l++;
+        mel++;
         Width("Mel", "100%");
-    } else if (l == 2) {
+    } else if (mel == 2) {
         document.getElementById("Mel").src="Minions img/Mel/Mel.webp";
-        l--;
+        mel--;
         Width("Mel", "50%");
     }
 }
 
-function Width(a, b) {
-    document.getElementById(a).style.width = b;
+function IMGBob() {
+    if (bob == 1) {
+        document.getElementById("Bob").src="Minions img/Bob/Bob2.png";
+        bob++;
+    } else if (bob == 2) {
+        document.getElementById("Bob").src="Minions img/Bob/Bob.png";
+        bob--;
+    }
+}
+
+function IMGCarl() {
+    if (carl == 1) {
+        document.getElementById("Carl").src="Minions img/Carl/Carl_bee-do.webp";
+        carl++;
+    } else if (carl == 2) {
+        document.getElementById("Carl").src="Minions img/Carl/Carl.png";
+        carl--;
+    }
+}
+
+function Width(id, size) {
+    document.getElementById(id).style.width = size;
+}
+
+function IMG(id, src) {
+
 }
