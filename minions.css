@@ -75,6 +75,7 @@ header{
 
 .lore div:hover{
     border: #fce029 solid 2px;
+    transition: 0.25s;
 }
 
 .lore div h1{
@@ -190,4 +191,9 @@ img{
     padding: 5px;
     background-color: #fce02975;
     border-radius: 10px;
+}
+
+.Meltext{
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
