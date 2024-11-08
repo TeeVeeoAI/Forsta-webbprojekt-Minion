@@ -52,13 +52,13 @@ header{
 .container{ 
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
     grid-auto-rows: minmax(100px,auto);
 
     grid-template-areas: 
-    "lore lore lore img"
-    "lore lore lore ."
-    "appearance appearance appearance appearance";
+    "lore img"
+    "lore ."
+    "appearance appearance";
 }
 
 .lore{
